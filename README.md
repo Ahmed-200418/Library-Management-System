@@ -186,12 +186,9 @@ The application uses Entity Framework Core with the following main entities:
 - Update documentation as needed
 - Add tests for new functionality
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Support
 
 For questions or issues:
 - Check the [PROJECT_DESCRIPTION.md](LibraryManagementSystem/PROJECT_DESCRIPTION.md) for detailed documentation
+
 - Review [TEST_CASES.md](LibraryManagementSystem.Tests/TEST_CASES.md) for testing information
