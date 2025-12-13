@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Domain/Models/User.fs" />
+    <Compile Include="Domain/Models/Book.fs" />
+    <Compile Include="Domain/Models/BorrowedBook.fs" />
+    <Compile Include="Domain/DTOs/RegisterDto.fs" />
+    <Compile Include="Domain/DTOs/LoginDto.fs" />
+    <Compile Include="Data/LibraryDbContext.fs" />
+    <Compile Include="Services/AuthService.fs" />
+    <Compile Include="Services/BookService.fs" />
+    <Compile Include="Services/BorrowedBooksService.fs" />
+    <Compile Include="Controllers/AuthController.fs" />
+    <Compile Include="Controllers/BookController.fs" />
+    <Compile Include="Controllers/BorrowedBooksController.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
