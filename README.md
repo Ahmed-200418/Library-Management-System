@@ -179,16 +179,10 @@ The application uses Entity Framework Core with the following main entities:
 4. **Logging**: Implement structured logging
 5. **Security**: Regular security audits and updates
 
-### Guidelines
-
-- Ensure all tests pass
-- Follow existing code style
-- Update documentation as needed
-- Add tests for new functionality
-
 ## Support
 
 For questions or issues:
 - Check the [PROJECT_DESCRIPTION.md](LibraryManagementSystem/PROJECT_DESCRIPTION.md) for detailed documentation
 
 - Review [TEST_CASES.md](LibraryManagementSystem.Tests/TEST_CASES.md) for testing information
+
